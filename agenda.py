@@ -41,7 +41,6 @@ def incluir_editar_contato(contato, telefone, email, endereco, salvar=True):
 
 def exportar_contatos(file_name):
     try:
-        # newline='' é necessário para evitar linhas em branco no Windows
         with open(file_name, "w", encoding="utf-8", newline='') as file:
             escritor = csv.writer(file)
             escritor.writerow(["Nome", "Telefone", "Email", "Endereco"])  # Cabeçalho
@@ -57,8 +56,7 @@ def importar_contatos(file_name):
     try:
         with open(file_name, "r", encoding="utf-8") as file:
             leitor = csv.reader(file)
-            header = next(leitor)  # Pula a linha de cabeçalho
-
+            next(leitor)
             contagem = 0
             for linha in leitor:
                 if len(linha) == 4:
