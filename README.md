@@ -35,34 +35,30 @@ Os dados são carregados automaticamente ao iniciar e salvos sempre que há alte
 
 Salve o código em um arquivo, por exemplo:
 
-
-
-agenda.py
-
+main.py
 
 Execute no terminal:
 
 
 
-python agenda.py
+python main.py
 
 
 ---
 
-## Funcionalidades
 
-Menu principal:
+## Menu principal
+
+1 - Mostrar todos
+2 - Buscar
+3 - Incluir
+4 - Editar
+5 - Excluir
+6 - Exportar CSV
+7 - Importar CSV
+0 - Sair
 
 
-
-1 - Mostrar todos\n
-2 - Buscar\n
-3 - Incluir\n
-4 - Editar\n
-5 - Excluir\n
-6 - Exportar CSV\n
-7 - Importar CSV\n
-0 - Sair\n
 
 
 ### Mostrar todos
@@ -94,7 +90,8 @@ O sistema espera arquivos com este formato:
 
 
 
-Nome,Telefone,Email,Endereco\n
+Nome, Telefone , Email, Endereco
+
 João,11999999999,joao@email.com
 ,Rua A
 
