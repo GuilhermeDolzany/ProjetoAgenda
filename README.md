@@ -55,14 +55,14 @@ Menu principal:
 
 
 
-1 - Mostrar todos
-2 - Buscar
-3 - Incluir
-4 - Editar
-5 - Excluir
-6 - Exportar CSV
-7 - Importar CSV
-0 - Sair
+1 - Mostrar todos\n
+2 - Buscar\n
+3 - Incluir\n
+4 - Editar\n
+5 - Excluir\n
+6 - Exportar CSV\n
+7 - Importar CSV\n
+0 - Sair\n
 
 
 ### Mostrar todos
@@ -94,11 +94,9 @@ O sistema espera arquivos com este formato:
 
 
 
-Nome,Telefone,Email,Endereco
+Nome,Telefone,Email,Endereco\n
 João,11999999999,joao@email.com
 ,Rua A
-Maria,11888888888,maria@email.com
-,Rua B
 
 
 ---
